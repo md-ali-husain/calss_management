@@ -1,0 +1,34 @@
+.classroom-list {
+  padding: 20px;
+}
+
+.classroom-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.classroom-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.classroom-card h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.classroom-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.classroom-card p strong {
+  color: #000;
+}

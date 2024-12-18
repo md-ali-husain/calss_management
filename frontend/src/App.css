@@ -1,0 +1,158 @@
+body {  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
+}  
+/* General container styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Styling for the image container */
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling for the login form container */
+.login-form {
+  flex: 1;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* Form heading */
+.login-form h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form description */
+.login-form p {
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input fields styling */
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+
+/* Button styling */
+.login-form button {
+  width: 50%;
+  padding: 12px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.login-form button:hover {
+  background-color: #4514d9;
+}
+
+/* Error and success message styling */
+.error-message {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #5bc0de;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+  /* Dashboard */
+ 
+
+  .dashboard-container {  
+    text-align: center;  
+    padding: 40px;  
+    background-color: rgb(27, 35, 120);  
+    min-height: 100vh; 
+    color: white;  
+  }  
+  
+  h1 {  
+    color: #ffffff; 
+  }  
+  
+  .boxes-container {  
+    display: flex;  
+    justify-content: space-around;  
+    margin-top: 20px;  
+  }  
+  
+  .box {  
+    cursor: pointer;   
+    width: 400px; 
+    height: 250px; 
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;  
+    background-color: #cd2530;  
+    color: white;   
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+  }  
+  
+  /* Change background color on hover and focus */  
+  .box:hover,  
+  .box:focus {  
+    background-color: #281c79;  
+    transform: scale(1.05); 
+    color: #ffffff; 
+  }  
+  
+  /* Optional: Changing color on touch (for mobile users) */  
+  .box:active {  
+    background-color: #3e8e41; 
+  }
+
+
+  /* footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20%;
+    
+  }
